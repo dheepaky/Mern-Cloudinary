@@ -94,11 +94,16 @@ export default function Upload() {
         )}
       </div>
       {img && (
-        <div className=" p-5 shadow-[0_3px_10px_-1px_rgba(0,0,0,0.3)]  rounded-lg  shadow-gray-500">
-          <img src={img} alt="Preview" className=" h-40 rounded-md mt-10 " />
-
+        <>
+          <div className=" p-2 shadow-[0_3px_10px_-1px_rgba(0,0,0,0.3)]  rounded-lg  shadow-gray-500">
+            <img
+              src={img}
+              alt="Preview"
+              className=" w-48 h-48 object-contain rounded-md "
+            />
+          </div>
           <p className="mt-5">Preview</p>
-        </div>
+        </>
       )}
     </div>
   );
