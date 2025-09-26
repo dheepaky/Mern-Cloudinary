@@ -7,6 +7,9 @@ import { useNavigate } from "react-router-dom";
 import { API_BASE_URL } from "../baseurl/BaseUrl";
 import axios from "axios";
 import CircularProgress from "@mui/material/CircularProgress";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 // Create a visually hidden input component
 const VisuallyHiddenInput = styled("input")({
   clip: "rect(0 0 0 0)",
@@ -32,10 +35,14 @@ export default function Upload() {
       const response = await axios.post(`${API_BASE_URL}/cloudinary/upload`, {
         img: img,
       });
+      toast.success("Image uploaded successfully!");
       // console.log("Uploaded:", response.data);
-      navigate("/uploads");
+      setTimeout(() => {
+        navigate("/uploads");
+      }, 2000);
     } catch (error) {
       console.error("error in Createblog", error);
+      toast.error("Failed to upload image.");
     } finally {
       setLoading(false);
     }
@@ -53,6 +60,7 @@ export default function Upload() {
 
   return (
     <div className="flex flex-col gap-5 justify-center items-center p-6">
+      <ToastContainer position="top-right" autoClose={2000} />
       <h2 className="text-2xl ">Upload an image</h2>
       <div className="flex   gap-10">
         <Button
