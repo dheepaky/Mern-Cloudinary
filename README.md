@@ -2,14 +2,13 @@
 
 [![MERN Stack](https://img.shields.io/badge/Stack-MERN-0099D6?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Cloudinary](https://img.shields.io/badge/Media-Cloudinary-3448C5?style=for-the-badge&logo=cloudinary)](https://cloudinary.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 A robust and scalable full-stack solution for implementing **secure, high-performance image uploads** in a MERN (MongoDB, Express, React, Node.js) application using **Cloudinary** for media management. Say goodbye to file system uploads and hello to powerful, cloud-based media delivery!
 
+* **Live Demo:** [https://dheepaky-mern-cloudinary.onrender.com/](https://dheepaky-mern-cloudinary.onrender.com/)
+
 ---
-
-
-* **Project Link:** [https://dheepaky-mern-cloudinary.onrender.com/](https://dheepaky-mern-cloudinary.onrender.com/)
-
 
 ## ✨ Features
 
@@ -18,7 +17,7 @@ A robust and scalable full-stack solution for implementing **secure, high-perfor
 | **Cloudinary Integration** | Seamlessly upload, store, and manage media assets using the industry-leading Cloudinary platform. |
 | **Secure & Scalable** | Images are offloaded from your server and stored securely, ensuring quick retrieval and reduced server load. |
 | **Full MERN Stack** | Built on the reliable and modern **MongoDB, Express, React, and Node.js** architecture. |
-| **File Handling** |  server side to efficiently process file input before passing to the Cloudinary API. |
+| **File Handling Middleware** | Utilizes **Multer** on the server side to efficiently process file input before passing to the Cloudinary API. |
 
 ---
 
@@ -106,7 +105,23 @@ You're all set! Now you can test the upload functionality and see your assets ap
 
 ---
 
+## 🤝 Contributing
 
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See the `LICENSE` file for more information.
+
+---
 
 ## 👤 Author
 
