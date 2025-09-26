@@ -8,6 +8,10 @@ A robust and scalable full-stack solution for implementing **secure, high-perfor
 
 ---
 
+
+* **Project Link:** [https://dheepaky-mern-cloudinary.onrender.com/](https://dheepaky-mern-cloudinary.onrender.com/)
+
+
 ## ✨ Features
 
 | Feature | Description |
@@ -15,7 +19,7 @@ A robust and scalable full-stack solution for implementing **secure, high-perfor
 | **Cloudinary Integration** | Seamlessly upload, store, and manage media assets using the industry-leading Cloudinary platform. |
 | **Secure & Scalable** | Images are offloaded from your server and stored securely, ensuring quick retrieval and reduced server load. |
 | **Full MERN Stack** | Built on the reliable and modern **MongoDB, Express, React, and Node.js** architecture. |
-| **File Handling Middleware** | Utilizes **`multer`** on the server side to efficiently process file input before passing to the Cloudinary API. |
+| **File Handling Middleware** |  server side to efficiently process file input before passing to the Cloudinary API. |
 | **Image Deletion** | Includes logic to delete images from Cloudinary when the corresponding record is removed from the database. |
 
 ---
@@ -104,26 +108,9 @@ You're all set! Now you can test the upload functionality and see your assets ap
 
 ---
 
-## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See the `LICENSE` file for more information.
-
----
 
 ## 👤 Author
 
 **Dheepak Y**
 * **GitHub:** [dheepaky](https://github.com/dheepaky)
-* **Project Link:** [https://github.com/dheepaky/Mern-Cloudinary](https://github.com/dheepaky/Mern-Cloudinary)
