@@ -112,13 +112,6 @@ You must have **Node.js** and **npm** installed on your machine.
 You're all set! Now you can test the upload functionality and see your assets appear instantly on Cloudinary.
 
 
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See the `LICENSE` file for more information.
-
 ---
 
 ## 👤 Author
