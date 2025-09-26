@@ -36,7 +36,7 @@ export default function View() {
   return (
     <div>
       {loading ? (
-        <ul className="flex flex-wrap gap-4 justify-center p-10">
+        <ul className="flex flex-wrap gap-4 justify-center ">
           {Array.from({ length: 6 }).map((_, index) => (
             <li key={index}>
               <Skeleton variant="rounded" width={192} height={192} />
@@ -44,7 +44,7 @@ export default function View() {
           ))}
         </ul>
       ) : upload.length > 0 ? (
-        <ul className="flex flex-wrap gap-6 justify-center p-10">
+        <ul className="flex flex-wrap gap-6 justify-center ">
           {upload.map((item, index) => (
             <li
               key={item.id || index}

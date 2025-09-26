@@ -24,7 +24,7 @@ export default function Header() {
         </h2>
       </div>
 
-      <div className="flex justify-center items-center mb-10 z-10 bg-amber-50">
+      <div className="flex justify-center items-center mb-10 z-10 bg-white">
         <Box sx={{ width: "100%" }}>
           <Tabs value={currentTab} aria-label="Navigation tabs" centered>
             <Tab label="Upload Image" value="/" component={Link} to="/" />
