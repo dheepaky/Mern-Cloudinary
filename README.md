@@ -2,7 +2,6 @@
 
 [![MERN Stack](https://img.shields.io/badge/Stack-MERN-0099D6?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Cloudinary](https://img.shields.io/badge/Media-Cloudinary-3448C5?style=for-the-badge&logo=cloudinary)](https://cloudinary.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 A robust and scalable full-stack solution for implementing **secure, high-performance image uploads** in a MERN (MongoDB, Express, React, Node.js) application using **Cloudinary** for media management. Say goodbye to file system uploads and hello to powerful, cloud-based media delivery!
 
