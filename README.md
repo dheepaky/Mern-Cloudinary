@@ -19,8 +19,7 @@ A robust and scalable full-stack solution for implementing **secure, high-perfor
 | **Cloudinary Integration** | Seamlessly upload, store, and manage media assets using the industry-leading Cloudinary platform. |
 | **Secure & Scalable** | Images are offloaded from your server and stored securely, ensuring quick retrieval and reduced server load. |
 | **Full MERN Stack** | Built on the reliable and modern **MongoDB, Express, React, and Node.js** architecture. |
-| **File Handling Middleware** |  server side to efficiently process file input before passing to the Cloudinary API. |
-| **Image Deletion** | Includes logic to delete images from Cloudinary when the corresponding record is removed from the database. |
+| **File Handling** |  server side to efficiently process file input before passing to the Cloudinary API. |
 
 ---
 
