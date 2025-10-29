@@ -7,7 +7,10 @@
 A robust and scalable full-stack solution for implementing **secure, high-performance image uploads** in a MERN (MongoDB, Express, React, Node.js) application using **Cloudinary** for media management. Say goodbye to file system uploads and hello to powerful, cloud-based media delivery!
 
 
-* **Live Demo:** [https://dheepaky-mern-cloudinary.onrender.com/](https://dheepaky-mern-cloudinary.onrender.com/)
+* ** 🌐 Live Demo:** [https://mern-cloudinary.vercel.app/](https://mern-cloudinary.vercel.app/)
+
+* **Frontend vercel:** [http://vercel.com/](http://vercel.com/)
+* **Backend Render:** [https://render.com/](https://render.com/)
 
 ---
 
