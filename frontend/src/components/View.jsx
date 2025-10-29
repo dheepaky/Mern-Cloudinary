@@ -4,7 +4,7 @@ import axios from "axios";
 import Skeleton from "@mui/material/Skeleton";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import backendUrl from "./const";
+import backendUrl from "../baseurl/ConstUrl";
 
 export default function View() {
   const [upload, setUpload] = useState([]);
