@@ -1,10 +1,13 @@
-# 📸 MERN-Cloudinary: Full-Stack Image Management
+# 📸 MERN Cloudinary Uploader
 
 [![MERN Stack](https://img.shields.io/badge/Stack-MERN-0099D6?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Cloudinary](https://img.shields.io/badge/Media-Cloudinary-3448C5?style=for-the-badge&logo=cloudinary)](https://cloudinary.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 A robust and scalable full-stack solution for implementing **secure, high-performance image uploads** in a MERN (MongoDB, Express, React, Node.js) application using **Cloudinary** for media management. Say goodbye to file system uploads and hello to powerful, cloud-based media delivery!
+
+
+* **Live Demo:** [https://dheepaky-mern-cloudinary.onrender.com/](https://dheepaky-mern-cloudinary.onrender.com/)
 
 ---
 
@@ -15,8 +18,6 @@ A robust and scalable full-stack solution for implementing **secure, high-perfor
 | **Cloudinary Integration** | Seamlessly upload, store, and manage media assets using the industry-leading Cloudinary platform. |
 | **Secure & Scalable** | Images are offloaded from your server and stored securely, ensuring quick retrieval and reduced server load. |
 | **Full MERN Stack** | Built on the reliable and modern **MongoDB, Express, React, and Node.js** architecture. |
-| **File Handling Middleware** | Utilizes **`multer`** on the server side to efficiently process file input before passing to the Cloudinary API. |
-| **Image Deletion** | Includes logic to delete images from Cloudinary when the corresponding record is removed from the database. |
 
 ---
 
@@ -31,7 +32,7 @@ This project is built using a powerful and modern stack:
 ### Backend
 * **Node.js** & **Express.js**
 * **Cloudinary SDK** (for server-side media management)
-* **Multer** (Node.js middleware for handling `multipart/form-data`)
+
 
 ### Database
 * **MongoDB** (NoSQL Database)
