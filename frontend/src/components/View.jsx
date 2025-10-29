@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { API_BASE_URL } from "../baseurl/BaseUrl";
+// import { API_BASE_URL } from "../baseurl/BaseUrl";
 import Skeleton from "@mui/material/Skeleton";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
@@ -13,7 +13,9 @@ export default function View() {
   useEffect(() => {
     const fetchUploads = async () => {
       try {
-        const response = await axios.get(`${API_BASE_URL}/cloudinary/images`);
+        const response = await axios.get(
+          `${VITE_BACKEND_URL}/cloudinary/images`
+        );
         setUpload(response.data);
       } catch (error) {
         console.error("Error fetching images:", error);

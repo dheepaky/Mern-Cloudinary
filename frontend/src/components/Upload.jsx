@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import CloudUploadIcon from "@mui/icons-material/CloudUploadOutlined";
 import SendIcon from "@mui/icons-material/Send"; // Optional: for an icon
 import { useNavigate } from "react-router-dom";
-import { API_BASE_URL } from "../baseurl/BaseUrl";
+// import { API_BASE_URL } from "../baseurl/BaseUrl";
 import axios from "axios";
 import CircularProgress from "@mui/material/CircularProgress";
 import { toast, ToastContainer } from "react-toastify";
@@ -32,9 +32,12 @@ export default function Upload() {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await axios.post(`${API_BASE_URL}/cloudinary/upload`, {
-        img: img,
-      });
+      const response = await axios.post(
+        `${VITE_BACKEND_URL}/cloudinary/upload`,
+        {
+          img: img,
+        }
+      );
       toast.success("Image uploaded successfully!");
       // console.log("Uploaded:", response.data);
       setTimeout(() => {
